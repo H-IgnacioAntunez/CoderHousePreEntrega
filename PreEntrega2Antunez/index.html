@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palta Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="fondoMain">
+    <!--Menú de navegación-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="row w-100 text-center">
+                    <!--Columna Izquierda de la navbar-->
+                    <div class="col-lg-5 col-md-12 col-sm-12 colBtnIzq d-flex justify-content-center align-items-center">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link boton" href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link boton" href="./pages/tienda.html">TIENDA</a>
+                            </li>
+                            <!--Boton desplegable-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle boton" href="#" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    DESPLEGABLE
+                                </a>
+                                <div class="dropdown-menu menuDesplegable" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item botonDesplegable" href="./pages/historia.html">Historia de la Palta</a>
+                                    <a class="dropdown-item botonDesplegable" href="./pages/recetas.html">Recetas</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item">
+                                <a class="nav-link boton" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    <!--Logo Columna central navbar-->
+                    </div>
+                    <div class="col-lg-2 colBtnMid">
+                        <div class="contenedor-imagen mx-auto">
+                            <a href="#">
+                                <img class="logoImg" src="img/LogoDefinitivo.png" alt="Logo palta shop">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Boton usuario-->
+                    <div class="col-lg-5 d-lg-block d-none colBtnDer">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#" class="mx-2"><i class="fas fa-user iconoRed"></i></a>
+                            <a href="#" class="mx-2"><i class="fas fa-door-open iconoRed"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main-->
+    <main class="contenido1 container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                <img src="./img/tree-svgrepo-com.svg" class="imagen__carrousel" alt="">
+            </div>
+            <div class="col-lg-6 col-md-auto d-flex flex-column align-items-center justify-content-center">
+                <h2 class="subtitulo">Palta Shop</h2>
+                <p class="texto">
+                    ¡Bienvenido a Palta Shop, el paraíso de las paltas!
+                </p>
+                <p class="texto">
+                    En Palta Shop, llevamos la experiencia de disfrutar de las mejores paltas directamente a tu hogar. Nos apasiona ofrecerte una selección única de paltas frescas y deliciosas, cultivadas con esmero para brindarte un sabor excepcional en cada bocado.
+                </p>
+                <p class="texto">
+                    Nuestra tienda es más que un lugar para comprar paltas; es un destino donde explorar variedades exquisitas, desde las clásicas hasta las más exóticas. Cada palta que seleccionamos cumple con nuestros estándares de calidad, garantizando frescura y autenticidad en cada entrega.
+                </p>
+                <p class="texto">
+                    En Palta Shop, no solo nos preocupamos por ofrecerte productos de alta calidad, sino también por brindarte una experiencia de compra inigualable. Nuestro equipo está aquí para ayudarte a descubrir nuevas variedades, responder tus preguntas y garantizar que tu amor por las paltas crezca con cada visita.
+                </p>
+                <p class="texto">
+                    Explora nuestra tienda en línea y sumérgete en el fascinante mundo de las paltas. Desde las variedades cremosas hasta las más firmes, tenemos algo para cada amante de las paltas. ¡Descubre el placer de la frescura y la calidad en Palta Shop!
+                </p>
+            </div>
+            <div class="col-lg-1 col-sm-4 text-center">
+                
+            </div>
+        </div>
+    </main>
+    <footer class="pt-5 pb-4 piePagina">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="encabezadoFooter mb-4">Nosotros</h5>
+                    <hr class="mb-4">
+                    <p class="textoFooter">En Palta Shop, llevamos la experiencia de disfrutar de las mejores paltas directamente a tu hogar. Nos apasiona ofrecerte una selección única de paltas frescas y deliciosas, cultivadas con esmero para brindarte un sabor excepcional en cada bocado.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="encabezadoFooter mb-4">Soporte</h5>
+                    <hr class="mb-1">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="nav-link" class="linkFooter">Mi cuenta</a></li>
+                        <li class="nav-item linkFooter"><a href="#" class="linkFooter"">Mis pedidos</a></li>
+                        <li class="nav-item linkFooter"><a href="#" class="linkFooter"">Configuracion</a></li>
+                        <li class="nav-item linkFooter"><a href="#" class="linkFooter"">Acerca de Palta Shop</a></li>
+                        <li class="nav-item linkFooter"><a href="#" class="linkFooter">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="encabezadoFooter mb-4">Datos</h5>
+                    <hr class="mb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="iconosListaFooter fas fa-home me-3"></i> 
+                            <span class="textoFooter text-center">Argentina, CABA</span>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="iconosListaFooter fas fa-envelope me-3"></i> 
+                            <span class="textoFooter text-center">Ignacioantunezrn@gmail.com</span>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <i class="iconosListaFooter fas fa-phone me-3"></i> 
+                            <span class="textoFooter text-center">+54 9 9999999999</span>
+                        </div>     
+                    </div>
+                </div>
+                
+                
+                <hr class="mb-4">
+                <div class="text-center mb-2">
+                    <p class="textoFooter">
+                        Copyright Todos los derechos reservados.
+                        <a href="../index.html" class="linkFooterCopyright">
+                            Palta Shop
+                        </a>
+                    </p>
+                </div>
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="textoFooter"><i class="iconoRed fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="textoFooter"><i class="iconoRed fab fa-x-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="textoFooter"><i class="iconoRed fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="textoFooter"><i class="iconoRed fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="textoFooter"><i class="iconoRed fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/572f4394a8.js" crossorigin="anonymous"></script>
+</body>
+</html>
